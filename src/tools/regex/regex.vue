@@ -18,5 +18,5 @@ const rules: UseValidationRule<string>[] = [
 const contentHTML = content;
 </script>
 <template>
-  <div v-html="contentHTML"></div>
+  <div v-html="contentHTML" style="background-color: white; padding: 30px;"></div>
 </template>
